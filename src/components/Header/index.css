@@ -1,0 +1,90 @@
+.nav-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header-menu-icon {
+  width: 25px;
+  height: 25px;
+}
+.nav-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+}
+.active-menu {
+  color: #4094ef !important;
+}
+
+.header-theme-icon {
+  width: 22px;
+  height: 22px;
+}
+.header-search-icon {
+  color: #989898;
+  width: 12px;
+  height: 12px;
+}
+@media screen and (min-width: 768px) {
+  .header-menu-icon {
+    display: none;
+  }
+}
+.model-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  width: 250px;
+  background-color: #cbd5e1;
+  border-radius: 10px;
+  padding: 20px;
+}
+.alert-message {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 10px;
+  color: black;
+  text-align: center;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.close-button {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: grey;
+  margin: 12px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+}
+.confirm-button {
+  align-self: flex-end;
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border: 1px solid #3b82f6;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+}

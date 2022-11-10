@@ -1,0 +1,21 @@
+.upi-username-link {
+  text-decoration: none;
+}
+.upi-unlike-icon {
+  width: 24px;
+  height: 24px;
+}
+.upi-comment-icon {
+  width: 23px;
+  height: 22px;
+}
+.upi-share-icon {
+  width: 24px;
+  height: 23px;
+  margin-top: 1px;
+}
+.upi-like-icon {
+  width: 25px;
+  height: 26px;
+  margin-bottom: 3px;
+}

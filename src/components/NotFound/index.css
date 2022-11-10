@@ -1,0 +1,34 @@
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 50%;
+  max-width: 270px;
+  margin-bottom: 30px;
+}
+.not-found-description {
+  text-align: center;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.not-found-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .not-found-image {
+    margin-bottom: 50px;
+  }
+}
